@@ -1,15 +1,20 @@
+
+@import "_grids.scss";
+@import "_fonts.scss";
+
 *{
 	box-sizing: border-box;
 }
 
 body{
-	background: limegreen;
+	background: #65C6BB;
 }
 
-$txt-color: maroon;
-
-h2{
-	color: $txt-color;
-	border-bottom: 4px solid $txt-color;
+h1{
+	color: black;
 }
 
+img {
+ width: 100%;
+ display: block;
+}

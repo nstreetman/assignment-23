@@ -1,0 +1,25 @@
+.legislator-container {
+  display: block;
+  margin: 0px;
+  width: 100%;
+  font-size: 0;
+}
+
+.individual-block {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #CDF493;
+  width: 31%;
+  height: 225px;
+  font-family: Georgia;
+  font-size: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  margin-bottom: 25px;
+  margin-left: 2%;
+}
+
+.individual-block li{
+  word-wrap: break-word;
+}
