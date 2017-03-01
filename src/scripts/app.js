@@ -21,7 +21,18 @@ const LegislatorObjectsList = React.createClass({
       console.log(arrayOfLegislators)
       let jsxLegislatorObj = arrayOfLegislators.map(function(legislatorObj){
 
-        return <li>{legislatorObj.first_name}</li>
+        return <div className="individual-block">
+
+                  <p className="heading-name">{legislatorObj.first_name}  {legislatorObj.last_name} </p>
+                  <p className="heading-title">{legislatorObj.title}--{legislatorObj.party}-{legislatorObj.state_name}  </p>
+                  <ul>
+                  <li> email: {legislatorObj.oc_email}</li>
+                  <li> website: {legislatorObj.website}</li>
+                  <li> facebook: {legislatorObj.facebook_id}</li>
+                  <li> twitter: {legislatorObj.twitter_id}</li>
+                  </ul>
+                  <p className="footer-term-end">Term Ends: {legislatorObj.term_end}</p>
+              </div>
       })
         return jsxLegislatorObj
     },
@@ -30,9 +41,9 @@ const LegislatorObjectsList = React.createClass({
       let legislatorInfoList = this.props.legislatorInfoList;
       console.log(legislatorInfoList)
       return (
-        <ul>
+        <div>
           { this._createLegislatorJSX(legislatorInfoList)  }
-        </ul>
+        </div>
       )
     }
 })
