@@ -1,3 +1,24 @@
+Convert 'Intro to API' Assignment to React Components
+
+Objectives
+
+Get familiar with React JSX Syntax
+Pass data into a React component and access it through props
+Map over an array of objects and generate JSX components
+Get an overall view of how React + Async fetches behave together.
+Setup Instructions
+
+cd into your ~/TIY/assignments directory and clone webpack-simple-server repo into an assignment-«XX» project-directory
+git clone git@github.com:t3tools/webpack-simple-server.git assignment-xx
+Install the project's dependencies from the package.json
+npm install
+After installation completes, start the task runner and local webserver:
+npm run go
+Build the project per requirements.
+Resources
+
+Sunlight Foundation API: https://sunlightfoundation.com/api/
+
 #ES6 Module Bundler Setup
 
 ##Setup 
